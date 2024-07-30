@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Livros de Direito</title>
+    <script src="codes.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <script type="text/javascript" src="codes.js"></script>
+
+    <header>
+
+        <div class="menu" onclick="myFunction(this)">
+            <div class="barrinha1"></div>
+            <div class="barrinha2"></div>
+            <div class="barrinha3"></div>
+        </div>
+
+        <div id="logo">
+            <picture>
+                <source media="(max-width: 600px)" srcset="Imagens/logo-cps-p.png" type="image/png">
+                <img src="Imagens/logo-cps-grande.png" alt="Logo aqui">
+            </picture>
+        </div>
+        
+        <form action=".php">                   
+            <input type="text" placeholder="Pesquisar..." name="pesquisar">
+            <button type="submit"> <i class="fa fa-search"></i></button>
+        </form>
+        
+        <div class="perfil">
+            <picture onclick="perfilMenu()">
+                <source media="(max-width: 600px)" srcset="Imagens/userp.png" type="image/png">
+                <img src="Imagens/userg.png" alt="">
+            </picture>      
+        </div>
+
+    </header>
+
+    <div class="perfilm">
+
+        <a id="a1" href="#"> <i class="gg-bookmark"></i></i>Favoritos</a>
+        <hr color="black">
+        <a  id="a2" href="#"> <i class="gg-folder"></i>Minhas pastas</a>
+        <hr color="black">
+        <a id="a3" href="#">Conta</a>
+
+    </div>
+
+</body>
+</html>
