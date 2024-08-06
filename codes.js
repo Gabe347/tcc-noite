@@ -9,6 +9,7 @@ function myFunction(x) {
     
     else {
        perfilmenu.style.display = 'none';
+       window.open("https://github.com/Gabe347/tcc-noite")
     }
 }
 
@@ -26,7 +27,7 @@ window.addEventListener('mouseup', function(event) {
     }
 });
 
-window.addEventListener()
+
 
 
 
