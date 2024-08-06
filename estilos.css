@@ -33,7 +33,7 @@ header{
 }
 
 .perfilm{
-    disply: none;
+    display: none;
     padding-top: 5px;
     float: inline-end;
     transform: translate(-60px, -30px);
