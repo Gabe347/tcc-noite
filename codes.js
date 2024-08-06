@@ -13,7 +13,6 @@ function myFunction(x) {
     }
 }
 
-
 var btn = document.createElement('img');
 btn.src = "Imagens/userg.png"
 
@@ -25,7 +24,7 @@ window.addEventListener('mouseup', function(event) {
     if(event.target !=perfilmenu) {
         perfilmenu.style.display = 'none';
     }
-});
+})
 
 
 
