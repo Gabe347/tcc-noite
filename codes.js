@@ -32,8 +32,7 @@ function telalogin(){
     var perfilmenu = document.querySelector('.perfilm');
 
     if (perfilmenu.style.display === 'block'){
-        open("https://github.com/Gabe347/tcc-noite")
-    }
+        
     
 }
 
