@@ -26,5 +26,18 @@ window.addEventListener('mouseup', function(event) {
     }
 });
 
+function telalogin(){
+    var btn = document.createElement('img');
+    btn.src = "Imagens/userg.png"
+    var perfilmenu = document.querySelector('.perfilm');
+
+        if (perfilmenu.style.display === 'block'){
+            window.open("https://github.com/Gabe347/tcc-noite/tree/editar", "_self");
+        }
+        else {
+            window.open("https://github.com/Gabe347/tcc-noite/tree/editar", "noopener noreferrer")
+        }
+    }
+
 
 
