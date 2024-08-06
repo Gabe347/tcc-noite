@@ -26,13 +26,5 @@ window.addEventListener('mouseup', function(event) {
     }
 });
 
-function telalogin(){
-    var btn = document.createElement('img');
-    btn.src = "Imagens/userg.png"
-    var perfilmenu = document.querySelector('.perfilm');
 
-    if (perfilmenu.style.display === 'block'){
-        
-    
-}
 
