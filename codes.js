@@ -26,7 +26,7 @@ window.addEventListener('mouseup', function(event) {
     }
 })
 
-
-
-
-
+window.addEventListener('mouseup', function(event) {
+    var menulateral = document.querySelector('.slide');
+    var checkbox = document.querySelector('input');
+})
