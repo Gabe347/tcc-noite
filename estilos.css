@@ -309,3 +309,9 @@ input:checked ~ .slide{
         margin-top:12px;
     }
 }
+
+footer{
+    background-color: var(--second-bg-color);
+    width: 100vw;
+    height: 100px;
+}
