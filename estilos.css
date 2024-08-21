@@ -362,7 +362,6 @@ footer{
 }
 
 .newsletter{
-    background-color: orange;
     width: 300px;
     height: 240px;
     margin-left: 80em;
@@ -375,10 +374,50 @@ footer{
     margin-bottom: 10px;
 }
 
+.newsletter > p{
+    margin-bottom: 0.6em;
+    font-size: 0.9em;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
 .newsletter > input{
+    margin-top: 0.5em;
+    border-radius: 10px;
     height: 30px;
     width: 20em;
+    border: 0;
+    outline: 0;
 }
+
+.newsletter > input[type="email"]{
+    padding-left: 1.5em;
+}
+
+.newsletter > button {
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 10px;
+    margin-top: 1.3em;
+    height: 50px;
+    width: 20em;
+    background-color: rgb(253, 137, 5);
+    border: 0;
+}
+
+.newsletter > button > p{
+    font-size: 1.5em;
+}
+
+.newsletter > button:hover{
+    cursor: pointer;
+    background-color: rgb(233, 90, 23);
+    transition: 0.2s;
+}
+
+.newsletter > button:active{
+    background-color: purple;
+}
+
 
 @media screen and (max-width: 1050px) {
     form input{
