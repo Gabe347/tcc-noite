@@ -303,7 +303,6 @@ footer{
 }
 
 .contato{
-    background-color: orange;
     margin-left: 30em;
     margin-top: -15em;
     width: 300px;
@@ -317,8 +316,45 @@ footer{
 }
 
 .contatop{
-    line-height: 1.5em;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.7em;
     color: white;
+}
+
+.sobre{
+    margin-left: 50em;
+    margin-top: -15.5em;
+    width: 300px;
+    height: 240px;
+}
+
+#sobreheader{
+    font-size: 4em;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.sobrep > a{
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.7em;
+    color: white;
+    text-decoration: none;
+}
+
+#af1{
+    margin-right: 13.75em;
+}
+
+#af2{
+    margin-right: 12em;
+}
+
+#af3{
+    margin-right: 4em;
+}
+
+#af4{
+    margin-right: 7em;
 }
 
 @media screen and (max-width: 1050px) {
