@@ -322,7 +322,7 @@ footer{
 }
 
 .sobre{
-    margin-left: 50em;
+    margin-left: 58em;
     margin-top: -15.5em;
     width: 300px;
     height: 240px;
@@ -341,6 +341,10 @@ footer{
     text-decoration: none;
 }
 
+.sobrep > a:hover{
+    text-decoration: underline;
+}
+
 #af1{
     margin-right: 13.75em;
 }
@@ -355,6 +359,25 @@ footer{
 
 #af4{
     margin-right: 7em;
+}
+
+.newsletter{
+    background-color: orange;
+    width: 300px;
+    height: 240px;
+    margin-left: 80em;
+    margin-top: -15.5em;
+}
+
+#newsheader{
+    font-size: 4em;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.newsletter > input{
+    height: 30px;
+    width: 20em;
 }
 
 @media screen and (max-width: 1050px) {
