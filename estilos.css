@@ -40,8 +40,8 @@ header{
 
 .perfilm{
     display: none;
-    float: inline-end;
-    transform: translate(-60px, -30px);
+    position: absolute;
+    transform: translate(106.4em, -30px);
     background-color: var(--second-bg-color);
     box-shadow: 0 0 7px 0 rgb(20, 20, 20);
     border-radius: 12px;
@@ -173,21 +173,17 @@ form input{
 /* Barra de Pesquisa*/
 
 /* Menu Lateral */
-  .slide{
+  .menul{
     height: 600px;
     border-radius: 0 0 10px 10px;
     width: 250px;
-    position:absolute;
+    position: absolute;
     background-color: var(--second-bg-color);  
-    transition: 0.5s ease;
-    transform: translateX(-250px);
+
     
 }
-@media screen and (max-width: 600px){
-    .slide{
-        height: 450px;
-    }
-}
+
+
 
 h1{
     color: var(--main-color);
@@ -220,65 +216,7 @@ ul li a i{
     text-align: center;
 }
 
-label input{
-    display: none;
-    visibility: hidden;
-    appearance: none;
-}
-.toogle{
-    position: absolute;
-    height: 32px;
-    width: 40px;
-    top: 52px;
-    left: 40px;
-    background-color: rgb(75, 75, 75);
-    z-index: 1;
-    cursor: pointer;
-    border-radius: 3px;
-}
-.toogle .common{
-    position: absolute;
-    height: 3px;
-    width: 32px;
-    background-color: #cf2507;
-    border-radius: 50px;
-    transition: 0.3s ease;
-}
-.toogle .top_line{
-    top:30%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-.toogle .middle_line{
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-.toogle .bottom_line{
-    top:70%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-input:checked ~ .toogle .top_line{
-     left: 2px;
-     top: 14px;
-     width: 36px;
-     transform: rotate(45deg);
-}
-input:checked ~ .toogle .bottom_line{
-    left: 2px;
-    top: 14px;
-    width: 36px;
-    transform: rotate(-45deg);
-}
-input:checked ~ .toogle .middle_line{
-    opacity: 0;
-    transform: translateX(20px);
-}
-input:checked ~ .slide{
-    transform: translateX(0);
-    
-}
+
 /* Menu Lateral */
 
 /*Livros :P*/
