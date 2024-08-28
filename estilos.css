@@ -168,15 +168,43 @@ form input{
 /* Barra de Pesquisa*/
 
 /* Menu Lateral */
-  .menul{
+
+.barrinhas{
+    position: relative;
+    transform: translate(45px, -70px);
+    cursor: pointer;
+    border-radius: 10em;
+}
+
+#barra1{
+    background-color: rgb(209, 0, 0);
+    width: 32px;
+    height: 3px;
+    margin-bottom: 5px;
+}
+
+#barra2{
+    background-color: rgb(209, 0, 0);
+    width: 32px;
+    height: 3px;
+    margin-bottom: 5px;
+}
+
+#barra3{
+    background-color: rgb(209, 0, 0);
+    width: 32px;
+    height: 3px;
+}
+
+
+.menul{
     z-index: 1000;
+    margin-top: -2em;
     height: 600px;
     border-radius: 0 0 10px 10px;
     width: 250px;
     position: absolute;
-    background-color: var(--second-bg-color);  
-
-    
+    background-color: var(--second-bg-color);    
 }
 
 

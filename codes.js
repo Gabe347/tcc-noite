@@ -26,7 +26,15 @@ window.addEventListener('mouseup', function(event) {
     }
 })
 
-window.addEventListener('mouseup', function(event) {
-    var menulateral = document.querySelector('.slide');
-    var checkbox = document.querySelector('input');
-})
+function menuL(){
+    var menul = document.querySelector('.menul');
+    var barrinhas = document.querySelector('.barrinhas');
+
+    if (menul.style.display === 'none') {
+        menul.style.display = 'block';}
+    
+    else {
+       menul.style.display = 'none';
+
+    }
+}
