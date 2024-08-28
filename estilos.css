@@ -281,6 +281,159 @@ input:checked ~ .slide{
 }
 /* Menu Lateral */
 
+/*Livros :P*/
+.coiso-livro{
+    overflow-x: hidden;
+}
+.organiza-dentro{
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+.title{
+    margin-top: 3rem;
+    text-align: center;
+    position: relative;
+}
+.title::after{
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+            transform: translateX(-50%);
+    height: 3px;
+    width: 200px;
+    background-color: #000;
+}
+.title h1{
+    font-weight: 500;
+    opacity: 0.8;
+}
+.livro{
+    margin: 3rem 0;
+}
+.livro-container{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-align: stretch;
+        -ms-flex-align: stretch;
+            align-items: stretch;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-transition: all 0.4s ease;
+    -o-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+}
+.livro-item{
+    width: calc(20% - 16px);
+    margin: 8px;
+    background-color: #fff;
+    max-width: 300px;
+}
+.livro-img{
+    position: relative;
+    overflow: hidden;
+}
+.livro-item img{
+    width: 100%;
+    display: block;
+}
+.livro-img div{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: #fff;
+    width: 100%;
+    padding: 0.8rem;
+    -webkit-transform: translateY(100%);
+        -ms-transform: translateY(100%);
+            transform: translateY(100%);
+    -webkit-transition: -webkit-transform 0.3s ease;
+    transition: -webkit-transform 0.3s ease;
+    -o-transition: transform 0.3s ease;
+    transition: transform 0.3s ease;
+    transition: transform 0.3s ease, -webkit-transform 0.3s ease;
+}
+.add-btn{
+    width: 100%;
+    background-color: transparent;
+    border: 2px solid #f2a80b;
+    color: #f2a80b;
+    font-family: inherit;
+    font-size: 0.9rem;
+    padding: 0.4rem;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+.livro-img:hover div{
+    -webkit-transform: translateY(0);
+        -ms-transform: translateY(0);
+            transform: translateY(0);
+}
+.livro-content{
+    padding: 0.5rem 1rem;
+    -webkit-transition: all 0.4s ease;
+    -o-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+}
+.book-title{
+    display: block;
+    font-weight: 700;
+    color: #000;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 0.9rem;
+    font-weight: 300;
+    padding: 0.2rem 0;
+}
+.author{
+    font-size: 0.9rem;
+    font-weight: 300;
+    opacity: 0.9;
+    text-transform: capitalize;
+}
+.author span{
+    font-weight: 400;
+    color: rgb(76, 99, 76);
+}
+.livro-content div{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+}
+
+@media screen and (max-width: 1200px){
+    .livro-item{
+        width: calc(25% - 16px);
+    }
+}
+@media screen and (max-width: 992px){
+    .livro-item{
+        width: calc(33.3333% - 16px);
+    }
+}
+@media screen and (max-width: 768px){
+    .livro-item{
+        width: calc(50% - 16px);
+    }
+}
+@media screen and (max-width: 576px){
+    .livro-item{
+        width: calc(100% - 16px);
+    }
+}
 
 footer{
     margin-top: 80vh;
