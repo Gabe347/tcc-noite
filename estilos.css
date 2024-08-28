@@ -436,7 +436,7 @@ input:checked ~ .slide{
 }
 
 footer{
-    margin-top: 80vh;
+    margin-top: 15vh;
     display: flex;
 }
 
