@@ -16,16 +16,6 @@ function myFunction(x) {
 var btn = document.createElement('img');
 btn.src = "Imagens/userg.png"
 
-window.addEventListener('mouseup', function(event) {
-    var perfilmenu = document.querySelector('.perfilm');
-    var btn = document.createElement('img');
-    btn.src = "Imagens/userg.png"
-    
-    if(event.target !=perfilmenu) {
-        perfilmenu.style.display = 'none';
-    }
-})
-
 function menuL(){
     var menul = document.querySelector('.menul');
     var barrinhas = document.querySelector('.barrinhas');
@@ -36,5 +26,14 @@ function menuL(){
     else {
        menul.style.display = 'none';
 
+    }
+}
+
+document.onclick = function(e){
+    var menul = document.querySelector('.menul');
+    var barrinhas = document.querySelector('.barrinhas');
+
+    if ((!menul.contains(e.target)) && !barrinhas.contains(e.target)) {
+        menul.style.display = 'none'
     }
 }
