@@ -173,7 +173,12 @@ form input{
     position: relative;
     transform: translate(45px, -70px);
     cursor: pointer;
-    border-radius: 10em;
+    background-color: rgb(26, 26, 26);
+    width: 42px;
+    padding: 5px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    border-radius: 3px;
 }
 
 #barra1{
@@ -199,7 +204,8 @@ form input{
 
 .menul{
     z-index: 1000;
-    margin-top: -2em;
+    display: none;
+    margin-top: -3em;
     height: 600px;
     border-radius: 0 0 10px 10px;
     width: 250px;
