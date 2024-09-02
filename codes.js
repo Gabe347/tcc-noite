@@ -4,11 +4,11 @@ function myFunction(x) {
 
  function perfilMenu(){
     var perfilmenu = document.querySelector('.perfilm');
-    if (perfilmenu.style.display === 'none') {
-        perfilmenu.style.display = 'block';}
+    if (perfilmenu.style.display !== 'none') {
+        perfilmenu.style.display = 'none';}
     
     else {
-       perfilmenu.style.display = 'none';
+       perfilmenu.style.display = 'block';
 
     }
 }
@@ -20,11 +20,11 @@ function menuL(){
     var menul = document.querySelector('.menul');
     var barrinhas = document.querySelector('.barrinhas');
 
-    if (menul.style.display === 'none') {
-        menul.style.display = 'block';}
+    if (menul.style.display !== 'none') {
+        menul.style.display = 'none';}
     
     else {
-       menul.style.display = 'none';
+       menul.style.display = 'block';
 
     }
 }
