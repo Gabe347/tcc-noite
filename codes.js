@@ -2,8 +2,12 @@ function myFunction(x) {
     x.classList.toggle("mudar");
 }
 
+var btn = document.createElement('img');
+btn.src = "Imagens/userg.png"
+
  function perfilMenu(){
     var perfilmenu = document.querySelector('.perfilm');
+
     if (perfilmenu.style.display !== 'none') {
         perfilmenu.style.display = 'none';}
     
@@ -13,12 +17,8 @@ function myFunction(x) {
     }
 }
 
-var btn = document.createElement('img');
-btn.src = "Imagens/userg.png"
-
 function menuL(){
     var menul = document.querySelector('.menul');
-    var barrinhas = document.querySelector('.barrinhas');
 
     if (menul.style.display !== 'none') {
         menul.style.display = 'none';}

@@ -34,7 +34,6 @@ header{
 }
 
 .perfilm{
-    display: none;
     position: absolute;
     transform: translate(650%, -30px);
     background-color: var(--second-bg-color);
