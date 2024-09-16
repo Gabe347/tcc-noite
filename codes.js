@@ -2,8 +2,7 @@ function myFunction(x) {
     x.classList.toggle("mudar");
 }
 
-var btn = document.createElement('img');
-btn.src = "Imagens/userg.png"
+
 
  function perfilMenu(){
     var perfilmenu = document.querySelector('.perfilm');
@@ -16,6 +15,19 @@ btn.src = "Imagens/userg.png"
 
     }
 }
+
+
+
+/* e
+document.onclick = function(e){
+    var perfilmenu = document.querySelector('.perfilm');
+    var btn = document.querySelector('.perfilfoto');
+
+    if ((!perfilmenu.contains(e.target)) && !btn.contains(e.target)) {
+        perfilmenu.style.display = 'none'
+    }
+}*/
+
 
 function menuL(){
     var menul = document.querySelector('.menul');

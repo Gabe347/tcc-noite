@@ -29,11 +29,37 @@ header{
 
 .perfil{
     display: inline-block;
-    cursor: pointer;
     margin-top: 20px;
 }
 
+.perfilfoto{
+    background-color: grey;
+    height: 3em;
+    width: 3em;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.perfilcabeça{
+    background-color: #dbd9d9;
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    transform: translate(16px, 12px);
+    border-radius: 50%;
+}
+
+.perfilcorpo{
+    background-color: #dbd9d9;;
+    position: absolute;
+    transform: translate(9px, 29px);
+    height: 19px ;
+    width: 29px ;
+    border-radius: 10px;
+}
+
 .perfilm{
+    display: none;
     position: absolute;
     transform: translate(650%, -30px);
     background-color: var(--second-bg-color);
@@ -74,22 +100,6 @@ header{
 #a2:hover{
     background-color: rgb(80, 78, 78);
 }
-
-.gg-bookmark{
-    display: flex;
-    float: left;
-    margin-top: 22px;
-    margin-left: 20px;
-}
-
-.gg-folder{
-    transform: scale(0.8);
-    display: flex;
-    float: left;
-    margin-top: 22px;
-    margin-left: 15px;
-}
-
 
 
 @media screen and (max-width: 600px) {
